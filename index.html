@@ -1,22 +1,19 @@
-<!doctype html>
-
-<html lang="en">
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+/* For device width smaller than 400px: */
+body {
+  background-image: url('https://github.com/LanleySnakeOil/lylelanley/blob/main/snakeoil_vert.jpg?raw=true');
+}
+
+/* For device width 400px and larger: */
+@media only screen and (min-device-width: 400px) {
   body {
-    background-image: url('https://github.com/LanleySnakeOil/lylelanley/blob/main/snakeoilcard03152021.jpg?raw=true');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+     background-image: url('https://github.com/LanleySnakeOil/lylelanley/blob/main/snakeoilcard03152021.jpg?raw=true');
   }
-
+}
 </style>
-
-<body>
-   <script>
-      setTimeout(function(){
-         window.location.href = 'https://www.tutorialspoint.com/javascript/';
-      }, 5000);
-   </script>
-   <p>Web page redirects after 5 seconds.</p>
-</body>
+</head>
 </html>
